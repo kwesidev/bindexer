@@ -1,0 +1,23 @@
+{
+    "database": {
+        "username": "postgres",
+        "password": "root",
+        "host": "localhost",
+        "port": 5432,
+        "dbName": "bitcoin"
+    },
+    "network": {
+        "testnet": {
+            "host" : "localhost",
+            "username": "bitcoin",
+            "password": "BB51dZDpnn1TkrVUzFzZ74eNvKjg5uzQrh1Dw8oJLdra",
+            "port": 18332
+        },
+        "main": {
+            "host": "localhost",
+            "username": "bitcoin",
+            "password": "BB51dZDpnn1TkrVUzFzZ74eNvKjg5uzQrh1Dw8oJLdra",
+            "port": 83333
+        }
+    }
+}

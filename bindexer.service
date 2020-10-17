@@ -1,0 +1,11 @@
+[Unit]
+Description= A Bitcoin indexer that syncs the blockchain to PostgreSQL
+WantedBy=multi-user.target
+ 
+[Service]
+Type=simple
+WorkingDirectory=/opt/bindexer/bin
+ExecStart=/opt/bindexer/bin/bindexer
+Restart=always
+KillMode=mixed
+KillSignal=SIGINT
