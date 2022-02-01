@@ -1,6 +1,6 @@
 Bitcoin Blockchain Indexer
 ==
-A tool to index the bitcoin block chain and store it in PostgreSQL
+A tool that streams Bitcoins Blockchain to PostgreSQL
 
 Requirements
 ==
